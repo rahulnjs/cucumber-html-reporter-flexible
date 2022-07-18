@@ -1,6 +1,7 @@
 interface Options {
   theme: 'bootstrap' | 'hierarchy' | 'foundation' | 'simple',
   jsonFile?: string,
+  json?: any,
   jsonDir?: string, 
   output: string,
   screenshotsDirectory?: string,
@@ -16,6 +17,8 @@ interface Options {
   metadata?: {
     [key: string]: string
   },
+  customScripts?: string[],
+  customStyles?: string[],
 }
 
-export function generate(options: Options, callback?: () => void): void
+export function generate(options: Options, callback?: (html: string) => void): void

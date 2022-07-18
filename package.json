@@ -1,6 +1,6 @@
 {
   "name": "cucumber-html-reporter-flexible",
-  "version": "1.1.0",
+  "version": "1.1.5",
   "description": "Generates Cucumber HTML reports in three different themes with flexibility",
   "main": "index.js",
   "typings": "./index.d.ts",
@@ -16,21 +16,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gkushang/cucumber-html-reporter.git"
+    "url": "git+https://github.com/rahulnjs/cucumber-html-reporter-flexible.git"
   },
   "bugs": {
-    "url": "https://github.com/gkushang/cucumber-html-reporter/issues",
-    "email": "g.kushang@gmail.com"
+    "url": "https://github.com/rahulnjs/cucumber-html-reporter-flexible/issues",
+    "email": "rahulsharmaa@hotmail.com"
   },
   "keywords": [
     "cucumber",
     "html",
     "cucumber-html-reporter",
+    "cucumber-html-reporter-flexible",
     "html report",
     "json to html"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/gkushang/cucumber-html-reporter#readme",
+  "homepage": "https://github.com/rahulnjs/cucumber-html-reporter-flexible#readme",
   "dependencies": {
     "chalk": "^2.4.2",
     "find": "^0.3.0",
